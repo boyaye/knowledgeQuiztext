@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+margin: 0 auto;
+background: linear-gradient(0deg, rgba(19,41,61,1) 0%, rgba(237,245,249,1) 63%);
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+min-height: 100vh;
+justify-content: start;
+}
+
+.card{
+    background: linear-gradient( rgb(41, 19, 76)15%, rgb(113, 108, 181)20%);
+    padding: 40px;
+    border: 1px solid;
+    margin: 50px;
+    border-radius: 25px;
+   color: white;
+   text-align: center;
+   display: flex;
+   justify-items: center;
+
+}
+
+#private{
+    line-height: 2px;  
+    font-style: italic; 
+    height: 50%;
+    border-radius: 60px;
+}
+
+#private h1{
+    font-size: 50px;
+    margin-top: 90px;
+    background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,96,33,0.9542191876750701) 100%);
+    color: rgb(125, 106, 57);
+}
+
+#starter{
+    margin-top: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.game{
+    margin-top: -200px;
+    width: 300px;
+    background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,96,33,0.9542191876750701) 100%);;
+    
+}
+
+.game:hover{
+    background-color: white;
+}
+
+
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    cursor: grabbing;
+    box-shadow: rgba(237,245,249,1) 2px 5px 2px 1px;
+}
+
+button:hover{
+    background-color: aqua;
+
+}

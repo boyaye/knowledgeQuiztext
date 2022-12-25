@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+<main class="container">
+<section class = "card body-page" id = "private">
+        <div class="starter box-start">
+           <h1>Timed Quized</h1>
+           <h3>This is a timed quiz ! get ready</h3>
+           <h3>This quiz will text your knowledge on some basic , HTML,CSS, and JAVASCRIPT skill.</h3>
+           <div class="buttonbtn start-button" id="starter">
+            <button class="game" id="startgame">Start Quized</button>
+             <button class="game" id="highscored">High Scored</button>
+            </div>
+        </div>
+    </section>
+    <section class="card question-page" id="questioinans">
+        <div id="timer">Time Left</div>
+        <div id="question"></div>
+        <button id="a">A</button>
+        <button id="b">B</button>
+        <button id="c">C</button>
+        <button id="d">D</button>
+        <div id="result"></div>
+    </section>
+
+    <section class="card game-over" id="gameover">
+        <div id="finalscore"></div>
+        <input type="text" placeholder="Enter Intials to rate high score" id="initials">
+      <button id="summitscore">Save Score</button>
+    </section>
+    <section class="card high-score">
+    <div id="highscorecontainer">
+        <div id="highscore">
+            <h3>Your Initials</h3>
+            <h3>Your Score</h3>
+         </div>
+         <div id="highscore-initials"></div>
+         <div id="highscore-score"></div>
+    </div>
+    <div id="endGamebutton">
+        <button id="playagain">Restart</button>
+        <button id="clearscore">clearscore</button>
+    </div>
+</section>
+
+</main>    
+</body>
+</html>
