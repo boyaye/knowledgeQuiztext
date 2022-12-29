@@ -11,6 +11,12 @@ min-height: 100vh;
 justify-content: start;
 }
 
+main{
+   display: flex;
+   flex-wrap: wrap;
+   position:absolute;
+}
+
 .card{
     background: linear-gradient( rgb(41, 19, 76)15%, rgb(113, 108, 181)20%);
     padding: 40px;
@@ -29,6 +35,7 @@ justify-content: start;
     font-style: italic; 
     height: 50%;
     border-radius: 60px;
+    
 }
 
 #private h1{
@@ -36,6 +43,11 @@ justify-content: start;
     margin-top: 90px;
     background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,96,33,0.9542191876750701) 100%);
     color: rgb(125, 106, 57);
+}
+
+#private h3{
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 #starter{
@@ -74,3 +86,36 @@ button:hover{
     background-color: aqua;
 
 }
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .high-score{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+  /* #gameover{
+    display: none;
+  } */
+
+  /* #questioning{
+    display: none;
+  } */
+
+  /* #endGamebutton{
+    display: none;
+  } */
+
+  /* #highscorecontainer{
+    display: none;
+  } */
